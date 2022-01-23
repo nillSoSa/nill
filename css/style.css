@@ -1,0 +1,205 @@
+/* 
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* ------header section start --------- */
+header{
+    width: 100%;
+    padding: 30px 0px;
+    position: absolute;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.nevbar{
+    display: flex;
+    justify-content: space-between;
+}
+.top_menu img{
+    vertical-align: middle;
+}
+.top_menu span{
+    font-size: 17px;
+    color: #3d2514;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+.top_menu{
+    margin-bottom: 20px;
+}
+.menus{
+    text-align: right;
+}
+.main_menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+.main_menu ul li{
+    display: inline-block;
+    margin-left: 50px;
+}
+.main_menu ul li a{
+    color: #3d2514;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/* ---------header section code end */
+
+/* --------banner section start---------- */
+#banner{
+    width: 100%;
+    padding: 80px 0px;
+    height: 100vh;
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.main_banner{
+    display: flex;
+    padding: 20px 0px;
+}
+.banner_left{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+.banner_left p{
+    color: #3d2514;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    border: 2px dashed #3d2514;
+    display: inline-block;
+    padding: 5px;
+}
+.banner_left h1 {
+	color: #3d2514;
+	font-size: 114px;
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-shadow: 3px 3px rgba(255, 255, 255, 0.8);
+}
+.banner_left h3{
+    color: #3d2514;
+	font-size: 56px;
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-shadow: 3px 3px rgba(255, 255, 255, 0.8);
+    margin-top: -10px;
+}
+.banner_right{
+    flex-basis: 50%;
+}
+/* --------banner section end---------- */
+
+ /* -------burger section start--------- */
+ #burger{
+     width: 100%;
+     padding: 100px 0px;
+ }
+ .burger_main{
+     display: flex;
+ }
+ .burger_left{
+     flex-basis: 50%;
+     margin-right: 20px;
+ }
+ .burger_right{
+     flex-basis: 50%;
+     margin-left: 20px;
+ }
+ .burger_left,.burger_right_top,.burger_right_bottom{
+     position: relative;
+ }
+ .burger_right_top{
+    margin-bottom: 20px;
+ }
+ .burger_right_bottom{
+    margin-top: 30px;
+ }
+ .burger_overlay{
+     position: absolute;
+     top: 20px;
+     left: 30px;
+ }
+ .burger_overlay h6{
+     color: #fff;
+     font-size: 25px;
+     font-family: 'Bebas Neue', cursive;
+     font-weight: 600;
+     margin-bottom: -9px;
+ }
+ .m-2 h4 {
+	line-height: 42px;
+	margin-top: 12px;
+}
+ .burger_overlay h4{
+    color: #fff;
+    font-size: 42px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+ }
+ /* -------burger section end--------- */
+
+ /* --------enjoy section start------- */
+ #enjoy{
+     width: 100%;
+     padding: 30px 0px;
+ }
+ .img-fluide{
+     max-width: 80%;
+ }
+ .enjoy_main{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     text-align: center;
+ }
+ .enjoy_item h3{
+     color: #3d2514;
+     font-size: 38px;
+     font-family: 'Bebas Neue', cursive;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
+ .enjoy_item p {
+	color: #3d2514;
+	font-size: 17px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin: 10px 20px;
+}
+.enjoy_item a{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Alfa Slab One', cursive;
+    display: inline-block;
+    background-color: #bf2121;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+ /* --------enjoy section end------- */
